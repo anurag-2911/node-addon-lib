@@ -18,5 +18,8 @@
   "homepage": "https://github.com/anurag2911/node-addon-lib#readme",
   "devDependencies": {
     "node-gyp": "^8.0.0"
+  },
+  "dependencies": {
+    "node-addon-api": "^3.1.0"
   }
 }
