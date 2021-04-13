@@ -1,2 +1,2 @@
-node addons library.
+node cpp addons using NAPI library.
 
