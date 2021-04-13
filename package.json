@@ -8,7 +8,7 @@
     "build": "node-gyp rebuild",
     "build:dev": "node-gyp build --debug",
     "clean": "node-gyp clean",
-    "start" : "node index.js"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
