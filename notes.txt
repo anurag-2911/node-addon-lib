@@ -1,0 +1,25 @@
+1. Debugging cpp code in visual studio:
+
+> In package.json add "build:dev": "node-gyp build --debug" to get debug add on node binary.
+>Add launch.json in .vscode\launch.json
+and add
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "C:/Program Files/nodejs/node",
+            "args": ["E:/codebase/node-addon-lib/index.js"]
+        }
+    ]
+}
+
+note that lldb extension tool should be installed (CodeLLDB
+Vadim Chugunov) in visual studio code
+
+> create a task.json file by ctrl+shift+P > Tasks:configure task.
+
+> put a break point in cpp code and then launch debugger F5.
+

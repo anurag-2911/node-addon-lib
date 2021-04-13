@@ -1,5 +1,7 @@
-const helloworld = require('./build/Release/nodeaddon.node');
+const helloworld = require('./build/Debug/nodeaddon.node');
 
-console.log('hello ', helloworld.hello());
+var resultmsg= helloworld.hello();
+
+console.log(resultmsg);
 
 
