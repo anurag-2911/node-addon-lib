@@ -19,7 +19,7 @@ and add
 note that lldb extension tool should be installed (CodeLLDB
 Vadim Chugunov) in visual studio code
 
-> create a task.json file by ctrl+shift+P > Tasks:configure task.
+> create a task.json file by ctrl+shift+P > Tasks:configure task > build:dev
 
 > put a break point in cpp code and then launch debugger F5.
 
